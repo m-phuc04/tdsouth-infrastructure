@@ -110,7 +110,13 @@ th,td{
 
 <div class="container">
 
-<h2 align="center">HỆ THỐNG QUẢN LÝ NHÂN VIÊN</h2>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+    <h2 style="margin: 0;">HỆ THỐNG QUẢN LÝ NHÂN VIÊN</h2>
+    <div style="display: flex; gap: 10px;">
+        <a href="he-thong-cham-cong/" style="padding: 8px 14px; background: #059669; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 13px;">⏱️ Hệ Thống Chấm Công</a>
+        <a href="he-thong-erp/" style="padding: 8px 14px; background: #2563eb; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 13px;">🏢 Hệ Thống ERP</a>
+    </div>
+</div>
 
 <form method="post">
 
