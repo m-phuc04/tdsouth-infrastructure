@@ -608,7 +608,6 @@ foreach ($attendanceList as $item) {
         <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
             <div class="nav-links">
                 <a href="../he-thong-erp/" class="nav-btn">🏢 Chuyển sang ERP</a>
-                <a href="../" class="nav-btn">🏠 Trang chủ</a>
             </div>
             <div class="live-clock-box">
                 <div class="live-clock" id="liveClock">--:--:--</div>
