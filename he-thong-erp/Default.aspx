@@ -494,7 +494,7 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td><strong>Lê Minh Phúc</strong></td>
+                        <td><strong>Nguyễn Văn A</strong></td>
                         <td><span class="badge badge-purple">Project Owner / Admin</span></td>
                         <td><strong style="color: #7e22ce;">Admin</strong></td>
                         <td>Quản trị toàn quyền repository, thiết lập Environments, phê duyệt PR chính vào <code>main</code>.</td>

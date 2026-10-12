@@ -70,7 +70,8 @@ namespace TDSouth.Erp
             HttpListenerResponse response = context.Response;
 
             string actionMsg = string.Empty;
-            string searchQuery = request.QueryString["q"] ?? string.Empty;
+            NameValueCollection query = HttpUtility.ParseQueryString(request.Url.Query ?? string.Empty, Encoding.UTF8);
+            string searchQuery = query["q"] ?? string.Empty;
 
             if (string.Equals(request.HttpMethod, "POST", StringComparison.OrdinalIgnoreCase) && request.HasEntityBody)
             {

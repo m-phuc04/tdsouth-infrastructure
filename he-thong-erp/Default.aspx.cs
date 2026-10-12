@@ -255,7 +255,7 @@ namespace TDSouth.Erp
         {
             ProjectList = new List<ProjectViewModel>
             {
-                new ProjectViewModel { Code = "PRJ-AD01", Name = "Triển khai Hệ thống Active Directory Domain Controller & GPO", Lead = "Lê Minh Phúc", Progress = 100, Status = "Hoàn thành", Budget = 45000000L },
+                new ProjectViewModel { Code = "PRJ-AD01", Name = "Triển khai Hệ thống Active Directory Domain Controller & GPO", Lead = "Nguyễn Văn A", Progress = 100, Status = "Hoàn thành", Budget = 45000000L },
                 new ProjectViewModel { Code = "PRJ-DNS02", Name = "Cấu hình Dịch vụ Mạng DNS & DHCP Failover Lab", Lead = "Kỳ Nguyễn", Progress = 85, Status = "Đang triển khai", Budget = 30000000L },
                 new ProjectViewModel { Code = "PRJ-IIS03", Name = "Xây dựng IIS Web Server (C# ASP.NET) & Chứng chỉ SSL/HTTPS", Lead = "Trường Nguyễn", Progress = 95, Status = "Đang hoàn thiện", Budget = 25000000L },
                 new ProjectViewModel { Code = "PRJ-SEC04", Name = "Kiểm thử An toàn Thông tin & Triển khai FTPS/File Server", Lead = "Tín Phan", Progress = 75, Status = "Đang kiểm thử", Budget = 20000000L }
